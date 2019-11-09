@@ -10,10 +10,13 @@ function add() {
 }
 
 var current = "violet";
+var color = ["none","none","none","none","none","none","none","none","none"];
 
 function turn(element) {
     //alert(element);
     $("#s" + element).css("background-color", current);
+    color[number - 1] = current;
+    console.log(color);
     if(current === "violet") {
         current = "red";
     } else {

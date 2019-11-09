@@ -1,15 +1,6 @@
-h1 {
-    color: magenta;
-    background-color: maroon;
-}
-
-#main-title {
-    color: chocolate;
-    font-size: 40px;
-    font-style: italic;
-    font-family: fantasy;
-}
-
-.nice-text {
-    color: cornflowerblue;
+.square {
+    width:200px;
+    height:200px;
+    border: 5px solid black;
+    margin: 10px;
 }
